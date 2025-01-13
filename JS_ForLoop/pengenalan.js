@@ -7,3 +7,13 @@
 // for (let i = 0; i < 5; i++) {
 //   console.log(i);
 // }
+
+//contoh lain perulangan for
+for (let i = 0; i < 20; i += 2) {
+  console.log(i);
+}
+
+//contoh lain perulangan for decr
+for (let i = 20; i > 0; i -= 2) {
+  console.log(i);
+}
