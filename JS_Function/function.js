@@ -9,3 +9,9 @@ function myFunction() {
   console.log("Hello World!");
 }
 myFunction();
+
+//argument function dan parameter function
+function myFunction1(name) {
+  console.log("Hello " + name);
+}
+myFunction1("John");
