@@ -1,0 +1,10 @@
+//Malas Bikin Parameter Banyak Bisa Pakai Rest Param
+const nama = ["bagus", "felix", "nadia", "michi"];
+
+const namaPemenang = (gold, silver, bronse, ...sisa) => {
+  console.log(`medali emas diraih ${gold}`);
+  console.log(`medali silver diraih ${silver}`);
+  console.log(`medali bronse diraih ${bronse}`);
+  console.log(`pemain lainnya ${sisa}`);
+};
+console.log(namaPemenang(...nama));
